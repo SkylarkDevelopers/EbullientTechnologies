@@ -1,0 +1,81 @@
+@charset "ISO-8859-1";
+
+body
+{
+	margin:0px;
+
+bgcolor:red;
+}
+
+.divClass
+{
+	background-color:#F5F5F5;
+	border:0px 1px;
+}
+h2
+{
+	color:red;
+}
+.liClass
+{
+	float:left;
+}
+ul
+{
+	margin:0px;
+	background-color:	#F5F5F5;
+	overflow:hidden;
+	padding:13px 32px;
+	border-style: ridge;
+	/* padding 13px=height 32px=width*/
+}
+
+li
+{
+	display:inline;
+	width:100%;
+	padding:35px 32px;
+
+	cursor:pointer;
+}
+
+li a{
+	color:#800000;
+	background-color:	;
+	padding:15px 32px;
+	width:100%;
+	
+	
+}
+a
+{
+	font-size:20px;
+	text-decoration:none;
+	padding:14px 32px;
+}
+a:hover
+{
+	color:red;
+	background-color:	#FAEBD7;
+	/*padding:14px 32px;*/
+
+}
+
+header a.logo {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.mySlides
+{
+	display:none;
+}
+
+.dropdown
+{
+	background-color:	#0000CD;
+}
+.dropdown-content
+{
+	color:red;
+}
